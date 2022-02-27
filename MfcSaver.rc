@@ -1,0 +1,199 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "scrnsave.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""scrnsave.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\MfcSaver.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ID_APP                  ICON                    "res\\MfcSaver.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_SCRNSAVECONFIGURE DIALOGEX 0, 0, 256, 185
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_APPWINDOW
+CAPTION "Marquee2"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    ICON            ID_APP,IDC_STATIC,2,5,21,20
+    GROUPBOX        "Controls",IDC_STATIC,28,2,171,129
+    GROUPBOX        "Legal Information",IDC_STATIC,28,135,171,30
+    LTEXT           "Coded by Mike Brent (Tursi)\nBased on MfcSaver by Ed Halley",IDC_STATIC,33,144,160,19
+    DEFPUSHBUTTON   "OK",IDOK,204,5,50,17,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Cancel",IDCANCEL,204,26,50,17,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "http://www.harmlesslion.com",IDC_BUTTON1,30,169,170,14
+    CONTROL         "Centered",IDC_CENTERED,"Button",BS_AUTORADIOBUTTON | WS_GROUP,38,14,45,10
+    CONTROL         "Random",IDC_RANDOM,"Button",BS_AUTORADIOBUTTON,38,26,43,10
+    PUSHBUTTON      "Set Background Color",IDC_BTNBGCOLOR,96,13,95,14
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_NOTICKS | WS_TABSTOP,42,57,144,15
+    LTEXT           "Speed",IDC_STATIC,42,45,22,8
+    LTEXT           "Slow",IDC_STATIC,42,75,16,8
+    LTEXT           "Fast",IDC_STATIC,172,75,14,8
+    PUSHBUTTON      "Set Font",IDC_BTNFONT,96,29,95,14
+    LTEXT           "Text File:",IDC_STATIC,42,97,30,8
+    EDITTEXT        IDC_FILENAME,76,95,95,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTNBROWSE,174,96,13,11
+    CONTROL         "Randomize Quotes",IDC_RANDOMQUOTE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,76,113,76,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,0
+ PRODUCTVERSION 1,1,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Marquee2 based on MFCSaver"
+            VALUE "CompanyName", "(based on code by Ed Halley)"
+            VALUE "FileDescription", "Marquee2 by M.Brent"
+            VALUE "FileVersion", "1, 1, 0, 0"
+            VALUE "InternalName", "Marquee2"
+            VALUE "LegalCopyright", "http://harmlesslion.com"
+            VALUE "OriginalFilename", "marquee2.scr"
+            VALUE "ProductName", "Marquee2"
+            VALUE "ProductVersion", "1, 1, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    DLG_SCRNSAVECONFIGURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 254
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 183
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    1                       "Marquee2"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\MfcSaver.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
